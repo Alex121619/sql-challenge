@@ -96,4 +96,7 @@ CREATE TABLE titles (
 SELECT * 
 FROM titles
 
+
+-----------------------------------------------------------------------
+-- DATA MANUPILATION - MAKING QUERY AND ANALYSIS OF DATA 
 -----------------------------------------------------------------------
