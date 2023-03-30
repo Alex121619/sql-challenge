@@ -3,6 +3,7 @@
 -----------------------------------------------------------------------
 -- Droping a table called departments if exists
 DROP TABLE IF EXISTS departments;
+
 -- 1. Creating a table called "departments"
 CREATE TABLE departments (
   			dept_no VARCHAR(10) PRIMARY KEY,
@@ -15,6 +16,7 @@ FROM departments
 -----------------------------------------------------------------------
 -- Droping a table called employees if exists
 DROP TABLE IF EXISTS dept_emp;
+
 -- 2. Creating a table called "dept_emp"
 CREATE TABLE dept_emp (
 			 emp_no INT NOT NULL,
@@ -31,6 +33,7 @@ FROM dept_emp
 -----------------------------------------------------------------------
 -- Droping a table called dept_managers if exists
 DROP TABLE IF EXISTS dept_managers;
+
 -- 3. Creating a table called "dept_managers"
 CREATE TABLE dept_managers (
  			 dept_no VARCHAR (10),
@@ -47,6 +50,7 @@ FROM dept_managers
 -----------------------------------------------------------------------
 -- Droping a table called employees if exists
 DROP TABLE IF EXISTS employees;
+
 -- 4. Creating a table called "employees"
 CREATE TABLE employees (
 			 emp_no INT PRIMARY KEY,
@@ -63,6 +67,7 @@ FROM employees
 -----------------------------------------------------------------------
 -- Droping a table called salaries if exists
 DROP TABLE IF EXISTS salaries;
+
 -- 5. Creating a table called "salaries"
 CREATE TABLE salaries (
 			 emp_no BIGINT NOT NULL,
@@ -78,6 +83,7 @@ FROM salaries
 -----------------------------------------------------------------------
 -- Droping a table called titles if exists
 DROP TABLE IF EXISTS titles;
+
 -- 6. Creating a table called "titles"
 CREATE TABLE titles (
 			 emp_no INT NOT NULL,
