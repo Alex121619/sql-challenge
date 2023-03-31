@@ -6,7 +6,7 @@ This SQL-challenge includes five files:
 4. Data Analysis
 5. Readme file
 
-For this SQL challenge, the follwoing activites has been carried out:
+For this SQL challenge, the follwoing activites have been carried out:
 -  Data modeling - creating entity relationship diagram using QUICKDBD app.
 -  Data Engineering that includes Data defintion (creating SQL tables).
 -  Data analysis (SQL Query)and storing queried information.
