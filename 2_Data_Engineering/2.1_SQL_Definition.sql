@@ -31,8 +31,7 @@ CREATE TABLE employees (
 
 SELECT * 
 FROM employees
-SET datestyle = mdy;
-show datestyle
+
 
 
 -----------------------------------------------------------------------
@@ -67,7 +66,7 @@ FROM dept_managers
 -- Droping a table called employees if exists
 DROP TABLE IF EXISTS dept_emp;
 
--- 3. Creating a table called "dept_emp"
+-- 5. Creating a table called "dept_emp"
 CREATE TABLE dept_emp (
 			 emp_no INT NOT NULL, 
 		 	 dept_no VARCHAR(10) NOT NULL,
@@ -82,7 +81,7 @@ FROM dept_emp
 -- Droping a table called salaries if exists
 DROP TABLE IF EXISTS salaries;
 
--- 5. Creating a table called "salaries"
+-- 6. Creating a table called "salaries"
 CREATE TABLE salaries (
 			 emp_no INT NOT NULL,
 			 salary INT NOT NULL,
